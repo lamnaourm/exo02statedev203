@@ -8,4 +8,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: whitesmoke;
 }
+
+.form {
+  width: 400px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.form label {
+  display: inline-block;
+  width: 200px;
+}
+
+.form input {
+  flex-grow: 1;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+}
+
+.btns button {
+  flex-grow: 1;
+}
+
+
+
